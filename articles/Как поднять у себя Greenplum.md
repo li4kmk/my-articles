@@ -4,22 +4,22 @@
 2. Установить с обязательно включенной настройкой WSL 2, в остальном бездумно далее, регистрация необязательна
 3. Найти любой Image (образ) Greenplum на сайте Docker Hub
 
-![Скриншот Docker Hub 1](../images/Скриншот_Docker_Hub_1.png)
+![Скриншот Docker Hub 1](../images/DockerGp1.png)
 
-![Скриншот Docker Hub 2](../images/Aspose.Words.64ad9826-a872-4c8d-bff4-5b3893271790.002.jpeg)
+![Скриншот Docker Hub 2](../images/DockerGp2.png)
 
 4. Скачать найденный Image Greenplum, выполнив в терминале команду docker pull oBrAz\_GrEeNpLuM
 5. Запустить Container, выполнив в терминале команду docker run --name iMyA\_c0nTeInErA -p 5432:5432 -d oBrAz\_GrEeNpLuM
 
-![Скриншот CMD](../images/Aspose.Words.64ad9826-a872-4c8d-bff4-5b3893271790.003.png)
+![Скриншот CMD](../images/DockerGp3.png)
 
 6. Проверить, что контейнер запущен в Docker Desktop
 
-![Скриншот Docker](../images/Aspose.Words.64ad9826-a872-4c8d-bff4-5b3893271790.004.jpeg)
+![Скриншот Docker](../images/DockerGp4.png)
 
 7. Провалиться в контейнер, в Logs можно увидеть, с каким logopas подключаться к БД Greenplum в DBeaver, а можно не увидеть — тогда gpadmin gpadmin
 
-![Скриншот Docker](../images/Aspose.Words.64ad9826-a872-4c8d-bff4-5b3893271790.005.jpeg)
+![Скриншот Docker](../images/DockerGp5.png)
 
 8. Контейнер может не запуститься, тогда в логах же посмотреть и погуглить ошибку.
 
