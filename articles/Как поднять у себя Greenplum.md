@@ -4,7 +4,7 @@
 2. Установить с обязательно включенной настройкой WSL 2, в остальном бездумно далее, регистрация необязательна
 3. Найти любой Image (образ) Greenplum на сайте Docker Hub
 
-![Скриншот Docker Hub](my-articles/images/Aspose.Words.64ad9826-a872-4c8d-bff4-5b3893271790.001.jpeg)
+![Скриншот Docker Hub](../images/Aspose.Words.64ad9826-a872-4c8d-bff4-5b3893271790.001.jpeg)
 
 ![Скриншот Docker Hub](my-articles/images/Aspose.Words.64ad9826-a872-4c8d-bff4-5b3893271790.002.jpeg)
 
