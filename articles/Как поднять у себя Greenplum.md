@@ -4,9 +4,9 @@
 2. Установить с обязательно включенной настройкой WSL 2, в остальном бездумно далее, регистрация необязательна
 3. Найти любой Image (образ) Greenplum на сайте Docker Hub
 
-![Скриншот Docker Hub](../images/Aspose.Words.64ad9826-a872-4c8d-bff4-5b3893271790.001.jpeg)
+![Скриншот Docker Hub 1](../images/Скриншот Docker Hub 1.png)
 
-![Скриншот Docker Hub](../images/Aspose.Words.64ad9826-a872-4c8d-bff4-5b3893271790.002.jpeg)
+![Скриншот Docker Hub 2](../images/Aspose.Words.64ad9826-a872-4c8d-bff4-5b3893271790.002.jpeg)
 
 4. Скачать найденный Image Greenplum, выполнив в терминале команду docker pull oBrAz\_GrEeNpLuM
 5. Запустить Container, выполнив в терминале команду docker run --name iMyA\_c0nTeInErA -p 5432:5432 -d oBrAz\_GrEeNpLuM
